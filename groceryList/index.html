@@ -1,68 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Meat List</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="Image" href="assets/images/favicon-16x16.png">
-</head>
-<body>
-    <!--inline style to satisfy requirement that I know how to execute inline style.-->
-    <header style="text-align: center; font-size: 3em; color: darkred; font-style: italic;">
-        <h1>MEAT LIST</h1>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="icon"
+      type="Image"
+      href="assets/images/favicon-16x16.png"
+    />
+    <!--Satisfies rubric to use Internal CSS-->
+    <style>
+      .body {
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <!--Satisfies rubric to use inline CSS.-->
+    <!--color darkred satisfies rubric for main header text to be a different color.-->
+    <header
+      style="
+        text-align: center;
+        font-size: 3em;
+        color: darkred;
+        font-style: italic;
+      "
+    >
+      <!--H1 Partially satisfies rubric to use three heading types.-->
+      <h1>MEAT LIST</h1>
     </header>
+    <!--main satisfies rubric to use major semantic tags.-->
     <main class="bodyContent">
-    <div class="cookers"><h2>Meat for The Smoker</h2>
+      <div class="cookers">
+        <!--H2 Partially satisfies rubric to use three heading types.-->
+        <!--"Meat for the Smoker" and "Meat for the Grill" (below) satisfy rubric for each cattegory of grocery to be in some type of "section".-->
+        <h2>Meat for The Smoker</h2>
+        <!--ul partially satisfies rubric to use two list types.-->
         <ul>
-            <li class="cow"><h3>Cow</h3>
-                <ol>
-                    <li>Brisket</li>
-                    <li>Top Round Roast</li>
-                    <li>Thor's Hammer</li>
-                </ol>
-            </li>
-            <li class="pig"><h3>Pig</h3>
-                <ol>
-                    <li>Bacon Explosion</li>
-                    <li>Ribs</li>
-                    <li>Pork Belly</li>
-                </ol>
-            </li>
-            <li class="game"><h3>Game</h3>
-                <ol>
-                    <li>Leg of Lamb</li>
-                    <li>Rabbit</li>
-                    <li>Gator Tail</li>
-                </ol>
-            </li>
+          <li class="cow">
+            <!--H3 Partially satisfies rubric to use three heading types.-->
+            <h3>Cow</h3>
+            <!--ol partially satisfies rubric to use two list types.-->
+            <ol>
+              <li>Brisket</li>
+              <li>Top Round Roast</li>
+              <li>Thor's Hammer</li>
+            </ol>
+          </li>
+          <li class="pig">
+            <h3>Pig</h3>
+            <ol>
+              <li>Bacon Explosion</li>
+              <li>Ribs</li>
+              <li>Pork Belly</li>
+            </ol>
+          </li>
+          <li class="game">
+            <h3>Game</h3>
+            <ol>
+              <li>Leg of Lamb</li>
+              <li>Rabbit</li>
+              <li>Gator Tail</li>
+            </ol>
+          </li>
+          <img
+            src="assets/images/sliced-smoked-brisket.jpg"
+            alt="Image of sliced beef brisket on a cutting board."
+            class="image"
+          />
         </ul>
-    </div>
-    <div class="cookers"><h2>Meat for The Grill</h2>
+      </div>
+      <div class="cookers">
+        <h2>Meat for The Grill</h2>
         <ul>
-            <li class="cow"><h3>Cow</h3>
-                <ol>
-                    <li>Tomahawk Steak</li>
-                    <li>Burgers</li>
-                    <li>Ribeye</li>
-                </ol>
-            </li>
-            <li class="bird"><h3>Bird</h3>
-                <ol>
-                    <li>Chicken Wings</li>
-                    <li>Turkey Leg</li>
-                    <li>Chicken Thighs</li>
-                </ol>
-            </li>
-            <li class="fish"><h3>Fish/Seafood</h3>
-                <ol>
-                    <li>Salmon</li>
-                    <li>Trout</li>
-                    <li>Shrimp</li>
-                </ol>
-            </li>
+          <li class="cow">
+            <h3>Cow</h3>
+            <ol>
+              <li>Tomahawk Steak</li>
+              <li>Burgers</li>
+              <li>Ribeye</li>
+            </ol>
+          </li>
+          <li class="bird">
+            <h3>Bird</h3>
+            <ol>
+              <li>Chicken Wings</li>
+              <li>Turkey Leg</li>
+              <li>Chicken Thighs</li>
+            </ol>
+          </li>
+          <li class="fish">
+            <h3>Fish/Seafood</h3>
+            <ol>
+              <li>Salmon</li>
+              <li>Trout</li>
+              <li>Shrimp</li>
+            </ol>
+          </li>
+          <img
+            src="assets/images/How-to-Grill-Salmon-5.webp"
+            alt="Image of a filet of salmon cooking on a gas-fired grill."
+            class="image"
+          />
         </ul>
-    </div>  
+      </div>
     </main>
-</body>
+  </body>
 </html>

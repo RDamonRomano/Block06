@@ -44,7 +44,7 @@
   #root, #__next {
     isolation: isolate;
   }
-
+/*borders and padding throughout satisfy rubric to add borders and spacing to each section.*/
 h1 {
     font-family: 'Times New Roman', Times, serif;
     align-self: center;
@@ -52,31 +52,49 @@ h1 {
 
 .bodyContent{
     border: 3px solid red;
+    padding: 5px;
     width: 75%;
     margin: 0 auto;
+    background-color: antiquewhite;
 }
 h2 {
+    /*background-color saddlebrown satisfies rubric for section headers to have background colors.*/
     background-color: saddlebrown;
     text-align: center;
     font-family: arial;
     font-size: 40px;
-    color: transparent;
-    background-clip: text;
-    background-image: repeating-linear-gradient(-57deg, #ff0000 3px, brown 3px);
 }
 
 .cookers {
-    border: 3px solid;
-    
+    border: 5px solid;
+    margin: 5px;
 }
-.cow h3, .pig h3, .game h3, .bird h3, .fish h3{
-    background-color: hotpink;
-}
-.cow, .pig, .game, .bird, .fish {
-    border: 2px solid;
-    width: 25%;
-    vertical-align: top;
-    display: inline-block;
-    min-height: 100px;
+/*background-color hotpink satisfies rubric for sections to have background colors.*/
+.cow h3, .pig h3, .game h3, .bird h3, .fish h3 {
+  border: 2px solid;
+  margin: 2px;
+  padding-left: 5px;
+  border-radius: 5%;
+  background-color: hotpink;
+  font-size: 3vw;
 }
 
+.cow, .pig, .game, .bird, .fish {
+    border: 1px solid;
+    margin: 3px;
+    border-radius: 5%;
+    /*background-color bisque satisfies rubric for sections to have background colors.*/background-color: bisque;
+    font-size: 2vw;
+    width: 24%;
+    display: inline-block;
+    vertical-align: bottom;
+    container-type: inline-size;
+}
+
+.image {
+  width: 24%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  size: 2vw;  
+}
