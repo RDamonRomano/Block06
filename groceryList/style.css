@@ -50,15 +50,27 @@ h1 {
     align-self: center;
 }
 
+.bodyContent{
+    border: 3px solid red;
+    width: 75%;
+    margin: 0 auto;
+}
 h2 {
     background-color: saddlebrown;
     text-align: center;
+    font-family: arial;
+    font-size: 40px;
+    color: transparent;
+    background-clip: text;
+    background-image: repeating-linear-gradient(-57deg, #ff0000 3px, brown 3px);
 }
 
 .cookers {
-    width: 75%;
     border: 3px solid;
     
+}
+.cow h3, .pig h3, .game h3, .bird h3, .fish h3{
+    background-color: hotpink;
 }
 .cow, .pig, .game, .bird, .fish {
     border: 2px solid;
@@ -67,6 +79,4 @@ h2 {
     display: inline-block;
     min-height: 100px;
 }
-.cow h3, .pig h3, .game h3, .bird h3, .fish h3{
-    background-color: hotpink;
-}
+
