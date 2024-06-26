@@ -51,27 +51,22 @@ h1 {
 }
 
 h2 {
-    background-color: saddlebrown
+    background-color: saddlebrown;
+    text-align: center;
 }
 
-div {
-    display: inline-block;
+.cookers {
+    width: 75%;
+    border: 3px solid;
+    
 }
 .cow, .pig, .game, .bird, .fish {
+    border: 2px solid;
     width: 25%;
+    vertical-align: top;
+    display: inline-block;
+    min-height: 100px;
+}
+.cow h3, .pig h3, .game h3, .bird h3, .fish h3{
     background-color: hotpink;
-}
-
-.cow {
-    color: brown;
-}
-
-.pig {
-    color: pink;
-}
-.bird {
-    color: tan;
-}
-.fish {
-    color: aqua;
 }
