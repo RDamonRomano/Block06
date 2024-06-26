@@ -8,37 +8,62 @@
     <link rel="icon" type="Image" href="assets/images/favicon-16x16.png">
 </head>
 <body>
-    <h1 style="text-align: center; font-size: 3em; color: darkred; font-style: italic;">MEAT LIST</h1>
+    <!--inline style to satisfy requirement that I know how to execute inline style.-->
+    <header style="text-align: center; font-size: 3em; color: darkred; font-style: italic;">
+        <h1>MEAT LIST</h1>
+    </header>
     
-    <ol><h2>Meat for The Smoker</h2>
-        <h3>Cow</h3>
-        <li>Brisket</li>
-        <li>Top Round Roast</li>
-        <li>Thor's Hammer</li>
-    </ol>
-    <ol><h3>Pig</h3>
-        <li>Bacon Explosion</li>
-        <li>Ribs</li>
-        <li>Pork Belly</li>
-    </ol>
-    <ol><h3>Game</h3>
-        <li>Leg of Lamb</li>
-        <li>Rabbit</li>
-        <li>Gator Tail</li>
-    </ol>
-    <ul><h2>Meat for The Grill</h2>
-        <h3>Cow</h3>
-            <li>Tomahawk Steak</li>
-            <li>Burgers</li>
-            <li>Ribeye</li>
-        <h3>Bird</h3>
-            <li>Chicken Wings</li>
-            <li>Turkey Leg</li>
-            <li>Chicken Thighs</li>
-        <h3>Fish/Seafood</h3>
-            <li>Salmon</li>
-            <li>Trout</li>
-            <li>Shrimp</li>
-    </ul>
+    <div class="cookers"><h2>Meat for The Smoker</h2>
+        <ul>
+            <li class="cow">Cow</li>
+                <ol>
+                    <li>Brisket</li>
+                    <li>Top Round Roast</li>
+                    <li>Thor's Hammer</li>
+                </ol>
+        </ul>
+        <ul>
+            <li class="pig">Pig</li>
+                <ol>
+                    <li>Bacon Explosion</li>
+                    <li>Ribs</li>
+                    <li>Pork Belly</li>
+                </ol>
+        </ul>
+        <ul>
+            <li class="game">Game</li>
+                <ol>
+                    <li>Leg of Lamb</li>
+                    <li>Rabbit</li>
+                    <li>Gator Tail</li>
+                </ol>
+        </ul>
+    </div>
+    <div class="cookers"><h2>Meat for The Grill</h2>
+        <ul>
+            <li class="cow">Cow</li>
+                <ol>
+                    <li>Tomahawk Steak</li>
+                    <li>Burgers</li>
+                    <li>Ribeye</li>
+                </ol>
+        </ul>
+        <ul>
+            <li class="bird">Bird</li>
+                <ol>
+                    <li>Chicken Wings</li>
+                    <li>Turkey Leg</li>
+                    <li>Chicken Thighs</li>
+                </ol>
+        </ul>
+        <ul>
+            <li class="fish">Fish/Seafood</li>
+                <ol>
+                    <li>Salmon</li>
+                    <li>Trout</li>
+                    <li>Shrimp</li>
+                </ol>
+        </ul>
+    </div>  
 </body>
 </html>
